@@ -12,3 +12,4 @@
 /TicTacToe/publish
 *user
 *.pfx
+/packages
