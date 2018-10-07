@@ -1,0 +1,14 @@
+*.userprefs
+*.directory
+/TicTacToe/bin
+/TicTacToe/obj
+/TicTacToe/Content/bin
+/TicTacToe/Content/obj
+/TicTacToeHelp/bin
+/TicTacToeHelp/obj
+/TicTacToeInfo/bin
+/TicTacToeInfo/obj
+/.vs
+/TicTacToe/publish
+*user
+*.pfx
