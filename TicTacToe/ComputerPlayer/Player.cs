@@ -74,9 +74,16 @@ namespace TicTacToe.ComputerPlayer
         {
             Defensive defensive = new Defensive(xSquares, oSquares);
             int no = defensive.Move();
+
             if (no==-1)
             {
-                no = ChooseRandom();
+                Offensive offensive = new Offensive(xSquares, oSquares);
+                no = offensive.Move();
+                
+                if (no==-1)
+                {
+                    no = ChooseRandom();
+                }
             }
             return no;
         }
